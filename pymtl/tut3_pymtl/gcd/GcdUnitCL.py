@@ -21,7 +21,7 @@ def gcd( a, b ):
   while True:
     ncycles += 1
     if a < b:
-      a,b = b,a
+      a,b = b-a,a
     elif b != 0:
       a = a - b
     else:
